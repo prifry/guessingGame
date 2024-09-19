@@ -1,4 +1,4 @@
-# Guessing Game
+# Guessing Game jogoadvinha.cpp
 This code is a simple "Guess the Number" game written in C++. Here's a breakdown of its functionality:
 
 Compilation and Execution:
@@ -33,3 +33,17 @@ End of Game:
 
 If the player guesses correctly, the game ends with a victory message. If all attempts are used without guessing correctly, the game reveals the secret number and ends.
 This code demonstrates core C++ concepts such as conditionals, loops, user input/output, and basic random number generation.
+# IMPROVEMENTS
+# The new Version of  jogoadvinha.cpp is guessgameimproved.cpp
+# Key Improvements:
+Modularity: The code is broken down into reusable functions (print_welcome_message, select_difficulty, set_attempts, set_secret_num, get_valid_guess, calculate_points_lost, play_game, and play_again), making it easier to read and maintain.
+
+Input Validation: The get_valid_guess() function ensures that users input valid integers, preventing the program from crashing on invalid input.
+
+Replay Option: After a game ends, the player is asked if they want to play again.
+
+Difficulty-Based Secret Number Range: The range of the secret number is adjusted based on the difficulty level. For instance, Easy ranges from 0 to 50, Medium from 0 to 100, and Difficult from 0 to 200.
+
+Better User Experience: The game gives clear feedback if the guess is too high or too low, and the player’s points are calculated more precisely.
+
+This version of the code is much more robust, easier to extend, and provides a better experience for both users and developers.
