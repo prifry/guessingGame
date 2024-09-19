@@ -1,5 +1,8 @@
-/*To compile the code  we need to use the command: g++ jogoadvinha.cpp -o jogoadvinha.out , and to run we need the command: jogoadvinha.out.
-We have to recompile every time we make a change before we run it. */
+/*
+*Prifry
+*Date: 19/09/2024
+*Description: To compile the code  we need to use the command: g++ jogoadvinha.cpp -o jogoadvinha.out , and to run we need the command: jogoadvinha.out.
+*We have to recompile every time we make a change before we run it. Guided by Alura */
 
 #include <iostream>  //To include the library for the input, output and flow. In order for the output and input to work, if not icluded it will show errors.
 #include <cstdlib>
